@@ -1,0 +1,11 @@
+/* Para atualizar as informaçoes de uma tabela com o indice todo */
+UPDATE filme_series SET main_genre="comedia" WHERE main_genre='comedy';
+
+/* Para DELETAR PARTE DA TABELA */
+DELECT FROM Filmes_series where 'açao'
+
+/* Para Exibir so uma determinada  parte da tabela*/ 
+SELECT * FROM `filme_series` WHERE pais = 'argentina';
+
+/* Para Exibir so uma determinada  parte da tabela na coluna especifica*/ 
+SELECT * FROM filme_series WHERE pais ='estados unidos da américa' AND filme_serie ='serié';
